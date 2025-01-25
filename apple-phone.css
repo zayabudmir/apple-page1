@@ -1,0 +1,272 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@media only screen and (max-width: 390px) {
+  * {
+    margin: 0;
+    gap: 0;
+  }
+  .body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-align-center {
+    align-items: center;
+    display: flex;
+    gap: 250px;
+  }
+  .logoText {
+    display: flex;
+    width: 390px;
+    justify-content: center;
+    height: 44px;
+    background: rgba(245, 245, 247, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 3;
+  }
+  .aicon {
+    display: flex;
+  }
+  .section {
+    display: flex;
+    margin: 18px 40px;
+  }
+  .date {
+    color: #1d1d1f;
+    text-align: center;
+    font-size: 14px;
+  }
+  .lm {
+    color: #06c;
+    font-size: 14px;
+  }
+  .section1 {
+    background-image: url(phone-1.png);
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+  }
+  .text-buttons {
+    width: 100%;
+    padding-top: 350px;
+  }
+  .flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iPhone {
+    display: flex;
+    color: #f5f5f7;
+    font-size: 29.25px;
+  }
+  .hello {
+    display: flex;
+    color: #f5f5f7;
+    font-size: 17.367px;
+    font-family: "Helvetica Neue";
+  }
+  .buttons {
+    display: flex;
+    gap: 15px;
+    padding-top: 19px;
+  }
+  .learnmore1 {
+    background-color: #0071e3;
+    border-radius: 980px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-family: Inter;
+  }
+  .buy1 {
+    background-color: transparent;
+    border-radius: 9999px;
+    color: #0071e3;
+    border: 1px solid #0071e3;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Inter;
+  }
+  .section2 {
+    background-image: url(phone-2.png);
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    margin-top: 6px;
+  }
+  .text-buttons-2 {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .learnmore2 {
+    background-color: #f5f5f7;
+    border-radius: 980px;
+    font-size: 14px;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    font-family: Inter;
+  }
+  .buy2 {
+    background-color: transparent;
+    border-radius: 9999px;
+    color: #f5f5f7;
+    border: 1px solid #f5f5f7;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Inter;
+  }
+  .section3 {
+    background-image: url(phone-3.png);
+    background-size: cover;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .two {
+    font-size: 21.563px;
+    color: #1d1d1f;
+    margin-top: 15px;
+    font-family: "Helvetica Neue";
+    font-size: 17.07px;
+  }
+  .apple-intelligence {
+    font-family: "Helvetica Neue";
+    font-size: 19.195px;
+    background: linear-gradient(
+      90deg,
+      #0090f7 0%,
+      #ba62fc 33.33%,
+      #f2416b 66.67%,
+      #f55600 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 320px;
+  }
+  .flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-1 {
+    width: 390px;
+    height: 500px;
+    margin-top: 39px;
+  }
+  .section4 {
+    background-image: url(phone-4.png);
+    background-size: cover;
+    margin-bottom: 6px;
+  }
+  .air {
+    color: #f5f5f7;
+    font-size: 29.875px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 4px;
+    font-family: Inter;
+  }
+  .now {
+    height: 70px;
+    color: #f5f5f7;
+    text-align: center;
+    display: flex;
+    font-family: "Helvetica Neue";
+    font-size: 17.664px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 400;
+  }
+  .section5 {
+    background-image: url(phone-5.png);
+    background-size: cover;
+
+    margin-bottom: 6px;
+  }
+  .thinstant {
+    color: #1d1d1f;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    margin-top: 9px;
+  }
+  .section6 {
+    background-image: url(phone-6.png);
+    background-size: cover;
+    margin-bottom: 6px;
+  }
+  .mac {
+    color: #1d1d1f;
+    font-size: 29px;
+    font-family: Inter;
+  }
+  .M3 {
+    font-family: "Helvetica Neue";
+    font-size: 17.367px;
+    color: #1d1d1f;
+    margin-top: 5px;
+  }
+  .section7 {
+    background-image: url(phone-7.png);
+    background-size: cover;
+    margin-bottom: 6px;
+  }
+  .business {
+    color: #1d1d1f;
+    font-size: 29.25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    font-family: Inter;
+  }
+  .hardware {
+    color: #1d1d1f;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 17.367px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .section8 {
+    background-image: url(phone-8.png);
+    background-size: cover;
+    margin-bottom: 6px;
+  }
+  .deals {
+    color: #1d1d1f;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 29.125px;
+    font-family: Inter;
+  }
+  .up {
+    color: #1d1d1f;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 17.664px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 4px;
+  }
+  .section9 {
+    background-image: url(phone-9.png);
+    background-size: cover;
+    margin-bottom: 6px;
+  }
+  .credit {
+    color: #1d1d1f;
+    font-family: "Helvetica Neue";
+    align-items: center;
+    font-size: 17.367px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
